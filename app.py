@@ -9,7 +9,7 @@ openai.api_key = 'sk-proj-mdQiu_MR8yThHP79TakrPj1hcZlaQlzBb_JdjLfXh3M4QL23pRlKaM
 # Function to generate blog content using OpenAI
 def generate_blog(prompt):
     response = openai.Completion.create(
-        engine="text-davinci-003",
+        engine="gpt-3.5-turbo",
         prompt=prompt,
         max_tokens=1024,
         n=1,
