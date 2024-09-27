@@ -4,7 +4,7 @@ import requests
 from requests.auth import HTTPBasicAuth
 
 # Set up OpenAI API key
-openai.api_key = 'your-openai-api-key'
+openai.api_key = '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'
 
 # Function to generate blog content using OpenAI
 def generate_blog(prompt):
